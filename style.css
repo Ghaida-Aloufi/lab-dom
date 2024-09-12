@@ -1,0 +1,25 @@
+.button {
+  width: 150px;
+  border: 0px solid #135d96;
+  background: rgb(244, 208, 208);
+  padding: 10px 21px;
+  border-radius: 5px;
+  color: #504747;
+  font-size: 15px;
+  font-family: Questrial;
+  text-decoration: none;
+  vertical-align: middle;
+
+}
+
+.button:hover span {
+  display: none
+}
+
+.button:hover:before {
+  content: "Hello!";
+}
+
+.button:hover {
+  background-color: rgb(162, 174, 162);
+}
