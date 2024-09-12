@@ -13,7 +13,7 @@
 }
 
 .button:hover span {
-  display: none
+  display: none;
 }
 
 .button:hover:before {
